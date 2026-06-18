@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://www.paypal.com/sdk/js?client-id=BAA3Q_u-NI35NuhiwLJ9NHHE_c6gTbfUAyXK9xNyx9TsSfqc5fM2KFSocJ8_n_E9xeZOZ2ASVdNrC0825A&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
 <title>BrainSecrets Hub</title>
 <style>
 body{
@@ -39,7 +40,12 @@ border-radius:5px;
 <div class="book">
 <h2>The Human Attraction Code</h2>
 <p>Master attraction and psychology.</p>
-<a class="buy" href="#">Buy Now</a>
+<div id="paypal-container-P6BNUYV73D4K6"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "P6BNUYV73D4K6",
+  }).render("#paypal-container-P6BNUYV73D4K6")
+</script>
 </div>
 
 <div class="book">
