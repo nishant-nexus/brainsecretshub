@@ -1,2 +1,2 @@
 # brainsecretshub
-Official ebook store of BrainSecrets Hub
+Official eBook store of BrainSecrets Hub
